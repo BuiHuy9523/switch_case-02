@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<form>
+    <input type = "index" name="nhapthang" id = "nhapthang">
+    <button type = "button" onclick="songaytrongthang();">tinhsongay</button>
+</form>
+<body>
+<script>
+    function songaytrongthang() {
+        var value = document.getElementById('nhapthang').value;
+        var result;
+        if (value == 1){
+            result = 31;
+        }
+        alert (result);
+    }
+</script>
+</body>
+</html>
